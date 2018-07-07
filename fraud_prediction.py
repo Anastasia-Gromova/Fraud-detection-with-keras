@@ -56,7 +56,7 @@ def train(data, pred_data, epochs=20, verbose=0, val=0):
 pp = train(train_data, test_data, epochs=40, verbose=0)
 
 # printing out the result
-result = pp > .000001
+result = pp > .0001
 
 tp_result = result.astype(int)[:98].sum() * 100 / 98
 print(str(round(tp_result, 2)) + '% of detected frauds')
