@@ -17,7 +17,7 @@ df_neg = df[492:100000]
 l = []
 for i in range(5):
     l.append(df_pos[:394])
-l.append(df_neg[:50000])
+l.append(df_neg[:60000])
 
 # separating dataset on test and train data
 train_data = pd.concat(l)
