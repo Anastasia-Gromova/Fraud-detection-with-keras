@@ -24,7 +24,7 @@ Epoch 20/20
 ```
 
 </br>Although the values for loss and accuracy show the good result, the actual task to detect the fraud transactions may not be succeeded. To check that there were obtained the predictions for the part of the dataset which was not trained. The predictions are given in a form of list with the probabilities of '1' to happen.
-</br>Even a very small probability may be an evidence of a fraud. So by the method of trial there was found a number (0,0001) for a comparison such as if the prediction exceeds it, there would be as many true and as fewer false positives as possible.
+</br>Even a very small probability may be an evidence of a fraud. So by the method of trial there was found a number (0,0001) for a comparison such as if the prediction exceeds it, there would be as many true positives and as fewer false positives as possible.
 </br>
 </br>The result of the predictions:
 ```
